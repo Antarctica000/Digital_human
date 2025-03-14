@@ -18,6 +18,7 @@ async def generate_video(audio: UploadFile, asset_path: str = Form("video_data/0
 
     # 运行demo_mini.py脚本生成视频
     output_video = "1.mp4"
+    # 若一切正常 将下面两行代码去除注释 执行真正的数字人语音视频生成逻辑
     # command = ["python", "demo_mini.py", asset_path, audio_path, output_video]
     # subprocess.run(command, check=True)
 
